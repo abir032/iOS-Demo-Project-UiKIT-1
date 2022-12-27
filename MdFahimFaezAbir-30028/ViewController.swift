@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnSmall(_ sender: Any) {
+        print("Small button was tapped")
+    }
+    
+    @IBAction func btnLarge(_ sender: Any) {
+        print("Large button was tapped")
+    }
+    @IBAction func btnMedium(_ sender: Any){
+        print("Medium button was tapped")
+    }
 }
 
